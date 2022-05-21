@@ -1,0 +1,87 @@
+// Place your key bindings in this file to override the defaults
+[
+// R
+    {
+    "key": "alt+-",
+    "command": "type",
+    "args": {
+        "text":" <- "
+    }
+
+},
+
+// markdown
+{
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "editorLangId == 'markdown'"
+},
+{
+    "key": "ctrl+shift+v",
+    "command": "-markdown-preview-enhanced.openPreview",
+    "when": "editorLangId == 'markdown'"
+},
+{
+    "key": "ctrl+shift+v",
+    "command": "-markdown.extension.togglePreview",
+    "when": "!terminalFocus"
+},
+
+// Python
+    //editorTextFocus: 光标所在当前行
+    //isWorkspaceTrusted:
+    //jupyter.ownsSelection
+    // '!notebookEditorFocused': 在终端运行当前行
+    //editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !jupyter.webExtension &&  !replaceInputFocussed && editorLangId
+// {
+//     "key": "ctrl+enter",
+//     //"command":  ["python.execSelectionInTerminal","cursorDown"]
+//     "command": "macros.pythonExecSelectionAndCursorDown",
+//     "when": "editorTextFocus && editorLangId == 'python'"
+// },
+// {
+//     "key": "shift+enter",
+//     "command": "macros.jupyterExecSelectionAndCursorDown",
+//     "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !jupyter.webExtension &&  !replaceInputFocussed && !notebookEditorFocused == 'python'"
+// },
+{
+    "key": "ctrl+enter",
+    "command": "macros.jupyterExecSelectionAndCursorDown",
+    "when": "editorTextFocus && editorLangId == 'python'"
+},
+// {
+//     "key": "shift+enter",
+//     "command": "jupyter.execSelectionInteractive",
+//     "when": "editorLangId == 'python'"
+// },
+// rmarkdown
+{
+    "key": "ctrl+o p",
+    "command": "type",
+    "args": {
+        "text": "```{python}\n\n```"
+    }
+},
+{
+    "key": "ctrl+o r",
+    "command": "type",
+    "args": {
+        "text": "```{r}\n\n```"
+    }
+},
+{
+    "key": "ctrl+enter",
+    "command": "notebook.cell.executeAndSelectBelow",
+    "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0"
+},
+{
+    "key": "shift+enter",
+    "command": "notebook.cell.execute",
+    "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0"
+}
+// {
+//     "key": "shift+enter",
+//     "command": "python.execSelectionInTerminal",
+//     "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+// }
+]

@@ -1,0 +1,406 @@
+{
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.wordWrap": "on",
+  "python.linting.enabled": false,
+  "files.autoSave": "afterDelay",
+  "python.linting.pylintPath": "D:\\software\\Anaconda3\\Lib\\site-packages\\pylint",
+  "files.associations": {
+    "*.rmd": "markdown",
+    "*.mak": "makefile",
+    "*.pro": "makefile",
+    "*.pri": "makefile",
+    "*.qrc": "xml",
+    "*.xsd": "xml",
+    "*.qss": "sass",
+    "*h*h*h*h*h*hexception": "cpp",
+    "typeinfo": "cpp",
+    "type_traits": "cpp",
+    "*hcstdint": "cpp",
+    "*hnew": "cpp",
+    "*h*h*hcwchar": "cpp",
+    "cwchar": "cpp",
+    "initializer_list": "cpp",
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cwctype": "cpp",
+    "cstdarg": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstddef": "cpp",
+    "ctime": "cpp",
+    "QTimer": "cpp",
+    "*harray": "cpp",
+    "system_error": "cpp",
+    "QNetworkReply": "cpp",
+    "istream": "cpp",
+    "functional": "cpp",
+    "*h*h*htuple": "cpp",
+    "tuple": "cpp",
+    "utility": "cpp",
+    "array": "cpp",
+    "QString": "cpp",
+    "*.tcc": "cpp",
+    "cstdint": "cpp",
+    "exception": "cpp",
+    "new": "cpp",
+    "limits": "cpp",
+    "*.i": "cpp",
+    "vector": "cpp",
+    "bitset": "cpp",
+    "qdomdocument": "cpp",
+    "cmath": "cpp",
+    "cstring": "cpp",
+    "fstream": "cpp",
+    "iomanip": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "memory": "cpp",
+    "ostream": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "qdebug": "cpp",
+    "algorithm": "cpp",
+    "qframe": "cpp",
+    "qdatetime": "cpp",
+    "complex": "cpp",
+    "hash_map": "cpp",
+    "hash_set": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "quuid": "cpp",
+    "numeric": "cpp",
+    "cinttypes": "cpp",
+    "qlist": "cpp",
+    "qdomelement": "cpp",
+    "qtextstream": "cpp",
+    "qtemporaryfile": "cpp",
+    "qvariantmap": "cpp",
+    "qobject": "cpp",
+    "qfileinfo": "cpp",
+    "qstringlist": "cpp",
+    "map": "cpp",
+    "qpointer": "cpp",
+    // "qtime": "cpp"
+  },
+  "cpplint.filters": [
+   "-build/header_guard",
+   "-build/include",
+   "-build/include_order",
+   "-whitespace",
+   "-readability/braces",
+   "-legal",
+   "-runtime/references",
+   "-readability/check"
+  ],
+  "cpplint.lineLength": 160,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "text.html.markdown.journal.task.open.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.marker",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.text",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.marker",
+        "settings": {
+          "foreground": "#AAAAAA"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.text",
+        "settings": {
+          "foreground": "#AAAAAA"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.memo.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.memo.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.scope",
+        "settings": {
+          "foreground": "#FFFF00",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.link.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.link.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      }
+    ]
+  },
+  "python.autoComplete.extraPaths": [
+    "D:\\software\\Anaconda3\\Lib\\site-packages",
+    "D:\\software\\Anaconda3\\Scripts"
+  ],
+  "python.analysis.extraPaths": [
+    "D:\\software\\Anaconda3\\Lib\\site-packages",
+    "D:\\software\\Anaconda3\\Scripts"
+  ],
+  "workbench.colorTheme": "Default Light+",
+  "r.rterm.windows": "D:\\software\\Anaconda3\\Scripts\\radian.exe",
+  "r.rterm.option": ["--no-site-file"],
+  "explorer.sortOrder": "type",
+  "r.bracketedPaste": true,
+  // "[rmd]": {},
+  // "[lisp]": {},
+  "editor.renderControlCharacters": true,
+  "macros": {
+    // update: requires macros extension by publisher:"geddski"
+    "jupyterExecSelectionAndCursorDown": [
+      "jupyter.execSelectionInteractive",
+      "cursorDown"
+    ]
+    // "pythonExecSelectionAndCursorDown": [
+    //   "python.execSelectionInTerminal",
+    //   //"vscode.window.activeTextEditor.show()",
+    //   "cursorDown"
+    // ]
+  },
+  "editor.suggestSelection": "first",
+  "terminal.integrated.profiles.windows": {
+    //配置终端
+    "Python": {
+      "path": "${env:windir}\\System32\\cmd.exe", //shell路径
+      "icon": "terminal-cmd",
+      "args": [
+        "/k",
+        "xx/.espressif/idf_cmd_init.bat",
+        "esp-idf-402269c78bff9d18",
+        "-noexit",
+        "-here"
+      ],
+      "overrideName": true //是否用Profile的名字来替代默认检测到的名字，这里是Python替代cmd
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Python",
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  //使用 SumatraPDF 预览编译好的PDF文件
+  // 设置VScode内部查看生成的pdf文件
+  // PDF查看器用于在\ref上的[View on PDF]链接
+  "latex-workshop.view.pdf.ref.viewer": "auto",
+  // 使用外部查看器时要执行的命令。此功能不受官方支持。
+  "latex-workshop.view.pdf.external.viewer.command": "D:/software/SumatraPDF/SumatraPDF.exe", // 注意修改路径
+  // 使用外部查看器时，latex-workshop.view.pdf.external.view .command的参数。此功能不受官方支持。%PDF%是用于生成PDF文件的绝对路径的占位符。
+  "latex-workshop.view.pdf.external.viewer.args": ["%PDF%"],
+  // 将synctex转发到外部查看器时要执行的命令。此功能不受官方支持。
+  "latex-workshop.view.pdf.external.synctex.command": "D:/software/SumatraPDF/SumatraPDF.exe", // 注意修改路径
+  // latex-workshop.view.pdf.external.synctex的参数。当同步到外部查看器时。%LINE%是行号，%PDF%是生成PDF文件的绝对路径的占位符，%TEX%是触发syncTeX的扩展名为.tex的LaTeX文件路径。
+  "latex-workshop.view.pdf.external.synctex.args": [
+    "-forward-search",
+    "%TEX%",
+    "%LINE%",
+    "-reuse-instance",
+    "-inverse-search",
+    "\"D:/software/VSCode/Code.exe\"\" \"D:/software/VSCode/resources/app/outcli.js\" -r -g \"%f:%l\"", // 注意修改路径
+    "%PDF%"
+  ],
+  //定义要在配方中使用的 LaTeX 编译工具。每个工具都标有其名称。
+  //调用时，命令会使用 args 中定义的参数和 env 中定义的环境变量生成。
+  //通常，除非在路径中，否则每个参数中不应出现空格。
+  //占位符 %DOC%、%DOC_W32%、%DOC_EXT%、%DOC_EXT_W32%、%DOCFILE%、%DOCFILE_EXT%、%DIR%、%DIR_W32%、%TMPDIR% 和 %OUTDIR%、%OUTDIR_W32% 可用.
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": ["%DOCFILE%"]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "xelatex",
+      "tools": ["xelatex"]
+    },
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex*2",
+      "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.ist",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk"
+  ],
+  //设置为onFaild 在构建失败后清除辅助文件
+  "latex-workshop.latex.autoClean.run": "onFailed",
+  // 使用上次的recipe编译组合
+  "latex-workshop.latex.recipe.default": "lastUsed",
+  // 用于反向同步的内部查看器的键绑定。ctrl/cmd +点击(默认)或双击
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+  //右键菜单
+  "latex-workshop.showContextMenu": true,
+  //从使用的包中自动补全命令和环境
+  "latex-workshop.intellisense.package.enabled": true,
+  //将 glob 模式配置到编辑器(例如 "*十六进制": "hexEditor.hexEdit")。这些优先顺序高于默认行为。
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.defaultInterpreterPath": "D:\\software\\Anaconda3\\python.exe", //python路径
+  //应在何处显示单元格工具栏，或是否隐藏它。
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left" //为特定文件类型配置单元格工具栏位置
+  },
+  //若设置为 true，则自动从当前 Git 存储库的默认远程库提取提交。若设置为“全部”，则从所有远程库进行提取。
+  "git.autofetch": true,
+  //始终信任工作区
+  "security.workspace.trust.untrustedFiles": "open",
+  //不显示新版本消息
+  "vsicons.dontShowNewVersionMessage": true,
+  //针对某种语言，配置替代编辑器设置
+  "[latex]": {
+    "editor.formatOnPaste": false, //针对某种语言，配置替代编辑器设置
+    "editor.suggestSelection": "recentlyUsedByPrefix" //控制在建议列表中如何预先选择建议。recentlyUsedByPrefix: 根据之前补全过的建议的前缀来进行选择。例如，co -> console、con -> const。
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.previewTheme": "atom-light.css",
+  "markdown-preview-enhanced.usePandocParser": true,
+  "grunt.autoDetect": "on",
+  "markdown.extension.toc.levels": "1..6",
+  "markdown.extension.toc.unorderedList.marker": "-",
+  "markdown.extension.toc.orderedList": false,
+  "markdown.extension.toc.plaintext": false,
+  "markdown.extension.toc.updateOnSave": true,
+  "markdown.extension.toc.omittedFromToc": {},
+  "markdown.extension.toc.downcaseLink": true,
+  "markdown.extension.preview.autoShowPreviewToSide": false,
+  "markdown.extension.orderedList.marker": "ordered",
+  "markdown.extension.italic.indicator": "*",
+  "markdown.extension.tableFormatter.normalizeIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "cSpell.userWords": [
+    "booktabs",
+    "dvamessage",
+    "emcscmslib",
+    "emcsvipagui",
+    "emcsvipaguilib",
+    "guijcop",
+    "h",
+    "idatabase",
+    "kable",
+    "knitr",
+    "kpis",
+    "matplotlib",
+    "pyplot",
+    "writer"
+  ],
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // "workbench.editor.enablePreview": false,
+  // "sourcery.token": ""
+}
