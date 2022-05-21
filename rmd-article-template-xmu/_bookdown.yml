@@ -1,0 +1,25 @@
+book_filename: thesis_main
+new_session: yes
+language:
+  label:
+    # fig: !expr function(x) paste("图", x, "&nbsp;&nbsp;")
+    # tab: !expr function(x) paste("表", x, "&nbsp;&nbsp;")
+    # 由于Rscript.exe 中文支持问题，上面导致 R crash, 从bookdown 源代码修改后重新编译package
+    fig: '图'
+    tab: '表'
+    eq: 'Equation '
+    thm: 'Theorem '
+    lem: 'Lemma '
+    cor: 'Corollary '
+    prp: 'Proposition '
+    cnj: 'Conjecture '
+    def: 'Definition '
+    exm: 'Example '
+    exr: 'Exercise '
+    proof: 'Proof. '
+    remark: 'Remark. '
+    solution: 'Solution. '
+  ui:
+    edit: Edit
+    chapter_name: ''
+    
