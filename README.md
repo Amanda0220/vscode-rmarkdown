@@ -79,24 +79,28 @@ use vscode to traslate `rmd` to `html`, `pdf`, `beamer`, `docx`, `ppt`
           }
       },
   ```
-  该操作为配置快捷键`ctrl+m ctrl+p`为输入以下代码块
+  该操作为配置快捷键`ctrl+m ctrl+p`为输入以下代码块(无最左边的`\`)
   ```
-  ```{python}
+  
+  \```{python}
+  \
+  \```
   
   ```
+  快捷键`ctrl+m ctrl+r`为输入以下代码块(无最左边的`\`)
   ```
-  快捷键`ctrl+m ctrl+r`为输入以下代码块
-  ```
-  ```{r}
   
-  ```
+  \```{r}
+  \
+  \```
+  
   ```
 
 4. 找到`settings.json`和`keybindings.json`，所在的文件夹，如我的为`C:\Users\Geman Zou\AppData\Roaming\Code\User`，拷进本项目下的`tasks.json`文件，该文件夹下一般也有`globalStorage`, `History`, `snippets`, `workspaceStorage`等文件夹。
 
 
 ## 右键安装
-`vsCode_addright.reg`为右键安装注册表，将文件用记事本打开，将其中的路径改为自己的路径，修改完成后保存关闭文件，双击运行安装右键。
+`vsCode_addright.reg` 为右键安装注册表，将文件用记事本打开，将其中的路径改为自己的路径，修改完成后保存关闭文件，双击运行安装右键。
 
 ## 使用说明
 1. 文件夹`rmd-article-template-xmu`为完整的模板，直接在里面的`.Rmd`文件撰写文本内容。<br>
